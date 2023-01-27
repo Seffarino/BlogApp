@@ -1,0 +1,22 @@
+@use "base";
+$size: 2.1rem;
+
+.button1 {
+  background-color: base.$primary;
+  border-radius: 100px;
+  border: none;
+  font-family: Arvo, serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: base.$secondary;
+  gap: 1.3rem;
+  padding: 0.7rem 2.8rem;
+}
+
+.button1 svg {
+  fill: base.$secondary;
+}

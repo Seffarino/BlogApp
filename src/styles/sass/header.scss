@@ -1,0 +1,11 @@
+@use "base";
+
+header {
+  width: 92%;
+  height: 96px;
+  background-color: base.$primary;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4%;
+}

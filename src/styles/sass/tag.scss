@@ -1,0 +1,38 @@
+@use "base";
+.tag {
+  background-color: base.$tag1;
+  color: base.$b1;
+  border-radius: 8px;
+  border: none;
+  font-family: Arvo, serif;
+  font-size: 0.72rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: base.$secondary;
+  padding: 0.17rem 0.75rem;
+}
+
+.tag:nth-child(2) {
+  background-color: base.$tag2;
+  color: base.$w1;
+}
+.tag:nth-child(3) {
+  background-color: base.$tag3;
+  color: base.$w1;
+}
+.tag:nth-child(4) {
+  background-color: base.$tag4;
+  color: base.$b1;
+}
+.tag:nth-child(5) {
+  background-color: base.$tag5;
+  color: base.$w1;
+}
+.tag:nth-child(6) {
+  background-color: base.$tag6;
+  color: base.$w1;
+}
+.tag:nth-child(7) {
+  background-color: base.$tag7;
+  color: base.$b1;
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+html {
+  font-size: 7px;
+}
+
+body {
+  color: #171107;
+  background-color: #171107;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-family: Arvo, serif;
+}
+
+h2 {
+  font-size: 1.9rem;
+  font-weight: bold;
+  font-family: Arvo, serif;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  font-family: Arvo, serif;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: Arvo, serif;
+}
+
+p {
+  font-weight: lighter;
+  color: #e1e1e6;
+  font-family: Arvo, serif;
+}
+
+body {
+  overflow: auto;
+}
+
+@media only screen and (min-width: 180px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media only screen and (min-width: 220px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 280px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 330px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 400px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 650px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 850px) {
+  html {
+    font-size: 24px;
+  }
+}
+.tag {
+  background-color: #d1daf2;
+  color: #171107;
+  border-radius: 8px;
+  border: none;
+  font-family: Arvo, serif;
+  font-size: 0.72rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #004a99;
+  padding: 0.17rem 0.75rem;
+}
+
+.tag:nth-child(2) {
+  background-color: #fc0f7e;
+  color: #dadae7;
+}
+
+.tag:nth-child(3) {
+  background-color: #209998;
+  color: #dadae7;
+}
+
+.tag:nth-child(4) {
+  background-color: #ffbc4b;
+  color: #171107;
+}
+
+.tag:nth-child(5) {
+  background-color: #080299;
+  color: #dadae7;
+}
+
+.tag:nth-child(6) {
+  background-color: #170ee6;
+  color: #dadae7;
+}
+
+.tag:nth-child(7) {
+  background-color: #e69b19;
+  color: #171107;
+}
+
+/*# sourceMappingURL=tag.css.map */

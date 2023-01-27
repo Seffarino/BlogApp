@@ -1,0 +1,27 @@
+@use "base";
+
+.article {
+  display: flex;
+  color: base.$w1;
+  background-color: base.$b2;
+}
+
+img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: fill;
+}
+
+.infos {
+  padding: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .body {
+    max-height: 5rem;
+    overflow: hidden;
+  }
+  h4 {
+    align-self: end;
+  }
+}

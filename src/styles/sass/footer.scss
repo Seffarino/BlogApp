@@ -1,0 +1,11 @@
+@use "base";
+
+footer {
+  color: base.$w1;
+  height: 143px;
+  background-color: base.$b2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

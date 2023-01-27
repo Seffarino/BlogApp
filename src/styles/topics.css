@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+html {
+  font-size: 7px;
+}
+
+body {
+  color: #171107;
+  background-color: #171107;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-family: Arvo, serif;
+}
+
+h2 {
+  font-size: 1.9rem;
+  font-weight: bold;
+  font-family: Arvo, serif;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  font-family: Arvo, serif;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: Arvo, serif;
+}
+
+p {
+  font-weight: lighter;
+  color: #e1e1e6;
+  font-family: Arvo, serif;
+}
+
+body {
+  overflow: auto;
+}
+
+@media only screen and (min-width: 180px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media only screen and (min-width: 220px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 280px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 330px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 400px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 650px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 850px) {
+  html {
+    font-size: 24px;
+  }
+}
+.topics {
+  display: flex;
+  margin: 64px 32px;
+  color: #dadae7;
+  text-align: center;
+  align-items: center;
+  gap: 64px;
+  flex-direction: column;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=topics.css.map */

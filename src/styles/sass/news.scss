@@ -1,0 +1,13 @@
+@use "base";
+
+.news {
+  display: flex;
+  margin: 64px 32px;
+  color: base.$w1;
+  text-align: center;
+  gap: 64px;
+  flex-direction: column;
+  color: base.$w1;
+  text-align: start;
+  flex-wrap: wrap;
+}

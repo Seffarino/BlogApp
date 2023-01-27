@@ -1,0 +1,25 @@
+@use "base";
+$size: 2.1rem;
+$size2: 11rem;
+$size3: $size2 - $size;
+
+.search {
+  cursor: pointer;
+  position: relative;
+  width: $size;
+  height: $size;
+  background-image: url("../../public/icons/search.svg");
+  background-size: $size;
+  &.on {
+    background-image: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+input {
+  position: absolute;
+  width: $size2;
+
+  left: -$size3;
+}
