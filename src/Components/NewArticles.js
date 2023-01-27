@@ -30,6 +30,7 @@ function NewArticles() {
                 key={i}
               />
             );
+          else return <></>;
         })
       ) : (
         <Loader />
